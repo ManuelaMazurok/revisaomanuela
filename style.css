@@ -1,6 +1,6 @@
 body {
 	line-height: 1.5;
-	font-family: Calibri;
+	font-family: Garamond;
 	font-size: 18px;
 }
 
@@ -8,34 +8,36 @@ body {
 	width: 25%;;
 	margin: auto;
   	display: block; /* Centraliza horizontalmente */
+	  border-radius: 15px;
 }
 
-.header { background-color: #960606;
+.header { background-color: #ffd67e;
+	background-color: #ffd67e;
+	padding: 10px;
 }
 
 .imglogo {
-	width: 50px;
-	background-image: #960606;
+	width: 55px;
+	background-image: #FFD67D;
 	margin: auto;
   	display: block; /* Centraliza horizontalmente */
 }
 .principal{
-	background: #ffffff;
-	padding: 50px;
+	background: #ffd67e;
+	padding: 60px;
 }
 
 .titulo-principal {
 	padding-left: 20px;
 	text-align: center;
 	font-size: 30px;
-
 }
 
 .titulo-centralizado {
 	text-align: center;
-	font-size: 26px;
-	background-color: black;
-	color: #ffffff;
+	font-size: 40px;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 p {
@@ -59,7 +61,7 @@ em strong {
 
 .itens {
 	font-style: italic;
-	color: #FAF8DA;
+	color: #FFD67D;
 	font-size: 20px;
 }
 
@@ -77,13 +79,16 @@ ul {
 }
 
 .imagemferrari {
-	width: 50px;
 	padding: 5px;
 	border-radius: 15px;
+	width: 25%;;
+	margin: auto;
+  	display: block; /* Centraliza horizontalmente */
 }
 
 .imgbrasileiro{
 	width: 20%;
+	border-radius: 15px;
 }
 
 .container-img{
@@ -96,10 +101,17 @@ ul {
 	margin: auto;
 	width: 50%;
 }
-.paragrafo {
+.paragrafo {	
 	text-align: center;
 	font-size: 18px;
-	color: #4a392b;
+	color: #492323;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: auto;
 
+}
+.titulo-centralizado1 {
+	text-align: center;
+	font-size: 26px;
+	background-color: black;
+	color: #687319;
 }
